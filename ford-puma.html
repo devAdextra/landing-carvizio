@@ -283,20 +283,43 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   informazioni richieste con la
                   compilazione del form.
                 </div>
+               
                 <div class="form-group">
-                  <input type="checkbox" class="form-control" name="newsletter" id="newsletter"
-                    style="width: 20px; vertical-align: middle;" /> Fornisco il consenso ad Adextra Italia S.r.l.s. al trattamento dei miei dati personali che saranno inseriti in un database per l’invio di comunicazioni promozionali, newsletter, materiale pubblicitario, per mezzo di sistemi tradizionali di contatto e sistemi informatici automatizzati, ivi incluse comunicazioni commerciali o promozionali a mezzo e-mail o tramite social network, ovvero per ricerche ed analisi di mercato.
+                  <input type="checkbox" id="newsletter" name="newsletter" value="true" />
+                  <label for="newsletter"> Fornisco il consenso ad Adextra Italia S.r.l.s. al trattamento dei miei dati
+                    personali per l’invio di comunicazioni promozionali, newsletter, materiale pubblicitario, per mezzo di
+                    sistemi tradizionali di contatto e sistemi informatici
+                    automatizzati, ivi incluse comunicazioni commerciali o promozionali a mezzo e-mail o tramite social
+                    network, ovvero per ricerche ed analisi di mercato sulle seguenti categorie merceologiche, <a
+                      href="merceologiche.html">Clicca qui</a>
+                  </label>
                 </div>
+                <br />
                 <div class="form-group">
-                  <input type="checkbox" class="form-control" name="marketing" id="marketing"
-                    style="width: 20px; vertical-align: middle;" />Fornisco
-                  il
-                  consenso ad Adextra Italia S.r.l.s. a
-                  comunicare e condividere i dati
-                  dell’utente a soggetti terzi
-                  per la ricezione di materiale
-                  promozionale, di digital
-                  marketing ed e-commerce.
+                  <input type="checkbox" id="marketing" name="marketing" value="true" />
+                  <label for="marketing">Fornisco il consenso ad Adextra Italia S.r.l.s. a comunicare e condividere i dati
+                    dell’utente a soggetti terzi per  la ricezione di materiale promozionale, di digital marketing ed
+                    e-commerce sulle seguenti categorie merceologiche, <a href="merceologiche.html">Clicca qui</a>
+                  </label>
+                </div>
+                <div>
+                  <label for="categorie">Seleziona le categorie merceologiche di tuo interesse: ( Tenere premuto CTRL o CMD per usare la
+                    selezione multipla ) </label><br />
+                  <select id="categorie" name="categorie[]" multiple size="30" style="height:200px">
+                    <option value="Telecomunicazioni">Telecomunicazioni</option>
+                    <option value="Finanziario">Finanziario</option>
+                    <option value="Assicurazioni">Assicurazioni</option>
+                    <option value="Energia">Energia, acqua e gas</option>
+                    <option value="ONG">ONG</option>
+                    <option value="Servizi legali">Servizi legali</option>
+                    <option value="Tempo libero">Tempo libero</option>
+                    <option value="Lotterie">Lotterie</option>
+                    <option value="Consumi">Consumi di massa:</option>
+                    <option value="Automotive">Automotive</option>
+                    <option value="Gioielli">Gioielli e Pietre preziose</option>
+                    <option value="Istruzione">Istruzione</option>
+                    <option value="Agenzie">Agenzie pubblicitarie</option>
+                  </select>
                 </div>
                 <div class="form-btn">
                   <p>

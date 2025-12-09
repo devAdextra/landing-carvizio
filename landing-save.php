@@ -23,6 +23,8 @@ $adminMessage = "
 		<li>Consenso: {$s_check1}</li>
 		<li>Newsletter: {$s_check2}</li>
 		<li>Marketing: {$s_check3}</li>
+      <li>Categorie Merceologiche: " . implode(', ', $_POST['categorie']) . "</li>
+
       </ul>
     </body>
   </html>
