@@ -95,5 +95,5 @@ function loadEnv($path) {
     }
 
 }
-header('Location: https://landing.carvizio.it/thankyou.html');
+header('Location: https://landing.car-vizio.it/thankyou.html');
 ?>

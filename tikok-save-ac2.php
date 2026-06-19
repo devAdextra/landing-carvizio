@@ -76,7 +76,7 @@ curl_close($ch);
 error_log("TikTok API Response: " . $response);
 
 // ✅ 2. Reindirizza alla Thank You Page
-header('Location: https://landing.carvizio.it/thankyou-ac2.html');
+header('Location: https://landing.car-vizio.it/thankyou-ac2.html');
 exit();
 
 // Funzione per caricare il file .env

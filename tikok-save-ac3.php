@@ -82,7 +82,7 @@ curl_close($ch);
 // Logga la risposta per il debug (rimuovi in produzione)
 error_log("TikTok API Response: " . $response);
 // ✅ 2. Reindirizza alla Thank You Page
-header('Location: https://landing.carvizio.it/thankyou-ac3.html');
+header('Location: https://landing.car-vizio.it/thankyou-ac3.html');
 exit();
 
 
